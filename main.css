@@ -7,7 +7,7 @@
 html{
     background-color: #EEEEEE;
     overflow-x: hidden;
-    font-family: "Arial", "STHeiTi", "Microsoft YaHei";
+    font-family: "Arial", "simsun", "STHeiTi", "Microsoft YaHei";
     font-size: 1em;
 }
 a{
@@ -29,13 +29,19 @@ a:hover {
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
     font-size: 1rem;
     line-height: 1.7em;
+    color: #333333;
 }
 
 h1 {
     font-family: "STHeiTi", "Microsoft YaHei";
     font-weight: normal;
-    margin-top: 1em;
     margin-bottom: 1em;
+}
+
+h3 {
+    font-family: "STHeiTi", "Microsoft YaHei";
+    font-weight: normal;
+    margin-bottom: .5em;
 }
 
 .item > div, .item > ul {
@@ -54,7 +60,7 @@ li > div > ul {
 #head {
     padding-top: 1vh;
     padding-bottom: 1vh;
-    font-family: "Courier";
+    font-family: "Courier", "Consolas", "Monospace";
     font-size: 3rem;
 }
 #current {
