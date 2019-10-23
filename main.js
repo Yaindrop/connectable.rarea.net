@@ -8,7 +8,6 @@ var updateSize = function () {
     var head = d.getElementById("head");
     if (x <= 700) {
         if (title.length > 15) {
-            console.log("x <= 700");
             head.style.fontSize = parseInt(150 / title.length) + "vw";
         }
     } else {
@@ -17,7 +16,6 @@ var updateSize = function () {
 }
 
 document.addEventListener("DOMContentLoaded", function (event) {
-    console.log("here");
     updateSize();
 });
 

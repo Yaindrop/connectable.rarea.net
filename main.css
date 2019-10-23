@@ -34,6 +34,7 @@ a:hover {
 h1 {
     font-family: "STHeiTi", "Microsoft YaHei";
     font-weight: normal;
+    margin-top: 1em;
     margin-bottom: 1em;
 }
 
@@ -46,8 +47,8 @@ li > div {
     margin-left: 1em;
 }
 
-li > div > p {
-    margin-left: 3em;
+li > div > ul {
+    margin-left: 1em;
 }
 
 #head {
